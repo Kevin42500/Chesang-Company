@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHESANG</title>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <style>
+header * {
+            display: inline;}
+            header li {
+    margin: 20px;
+}
+
+header {overflow: hidden;
+  background-color: #333;
+
+            background-color: #38c8f4;
+            color: white;
+            padding: 1rem 0;
+                text-align: center;
+                position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display:flex;
+    align-items: center;
+    transition: all .7s ease;}
+
+header img {
+    height: 70px;
+    margin-left: 40px;
+    align-self: baseline;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+body{
+        font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #f3f3f9;
+           background-color: rgb(8,24,169);
+            min-height: 90vh;
+            line-height: 1.5;
+            margin-top: 80px;
+    padding: 30px;
+    position: absolute;
+
+        }
+        
+       .products-container{
+        align-items: center;
+        float: right;
+        position:relative;
+       }
+       .news-container{
+        margin-top: .3em;
+        align-items: left;
+        float: right;
+        position:absolute;
+        padding: 30px;
+        }
+ 
+
+       .image{
+        float: left;
+  padding: 5px;
+       }
+       body image {
+   float:left;
+    width:  190px;
+    height: 190px;
+    object-fit: cover;
+    
+}
+footer{
+    background-color: rgb(2, 2, 82);
+    text-align: center;
+    height: 60px;
+    align-self: baseline;
+    
+}
+footer * {
+            display: inline;}
+            footer li {
+    margin: 20px;
+            }
+            {
+  position: relative;
+  font-family: Arial;
+}
+.image-news{
+    float: left;
+}
+ main img{
+    float:left;
+    width:  190px;
+    height: 190px;
+    object-fit: cover;
+}
+.nav{
+    position: relative;
+    top: -10px;
+}
+    </style>
+
+    <body>
+
+        <header>
+            <img src="logo.jpg" <h1> CHESANG COMPANY</h1>
+        <div class="Nav">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#PRODUCTS">PRODUCTS</a></li>
+                <li><a href="#ABOUT ">ABOUT US</a></li>
+                <li><a href="#CONTACTS">CONTACT</a></li>
+                <li><a href="#CLIENTS">CLIENTS</a></li>
+            
+        </div>
+        </header>
+<main>
+       <section class="Hero" id="HOME">
+        <div class="hero-overlay"></div>
+        <div class="hero-content"></div>
+        <div class="hero-text"></div>
+        <h2 style="color: black;">HOME</h2>
+        <p1>Chesang Company! Where Creativity and Innovation intersects with real life.<br>
+        See groundbreaking products,revolutionary technologies and inspiring work of art that shape our world.<br>
+        We sculpt stories that breathe life into your brand, 
+        resonating authentically with your audience and etching a lasting imprint on the world</p1>
+       </section>
+
+       <section class="Products" id="PRODUCTS">
+    <div class="products-container"></div>
+        <div class="Product-text"></div>
+        <h2 style="color: black;">Our Products</h2>
+        <div class="image"> <img src="large.jpg" height="250px"/> 
+         <div class="bottom-right">Large Formarting</div></div> 
+         <div class="image"><img src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/292637315_159894379893497_894380496316844824_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7bVAauUrbkkQ7kNvgEbwAZw&_nc_ht=scontent.fnbo1-1.fna&oh=00_AYD_wssoHHFVgqkqMvaifrHswZ-UgmgoD-XIUFxx3e-XIg&oe=66D64170" height="250px"/>
+            <div class="bottom-right">branding of reflectors</div></div>  </div>
+         <div class="image"><img src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/301923804_171320835417518_1503108061489944479_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6W3zulWZk7MQ7kNvgGmoCU1&_nc_ht=scontent.fnbo1-1.fna&oh=00_AYCidZXmeCQG2zqAslqFWuMn9Yj5nPkorNvG21UwoRGLdA&oe=66D62DC8" height="250px"/>
+            <div class="bottom-right">hats,safari jackets&caps</div></div>  </div> 
+        <div class="image"><img src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/302427921_171320715417530_5799562713996771851_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qx3vnSLA7mAQ7kNvgGpYv8a&_nc_ht=scontent.fnbo1-1.fna&oh=00_AYC-4Z-kYzN2iaWh4oyHyJH79ck_baQaDLkyD5bJVLVJtQ&oe=66D62BC6" height="250px" />
+            <div class="bottom-right">Notebooks</div></div> </div></div>
+        <div class="image"><img src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/302317222_171320335417568_380926458926162395_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=21Iqpr_uYmwQ7kNvgEArMsz&_nc_ht=scontent.fnbo1-1.fna&oh=00_AYDeOqCcMFgD_nJzu8rpxyHTkOrAROsJVmyhdNZCytdE9g&oe=66D61155" height="250px"/>
+            <div class="bottom-right">Tshirts</div></div> </div>
+        <div class="image"><img src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/301802756_171320872084181_6228375500144008825_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=EVAmLgCxGAYQ7kNvgFqNq9s&_nc_ht=scontent.fnbo1-1.fna&oh=00_AYCdKFXPyNVddIlrl6VnwtFZy27n8Glu73vuoInX82Jd9A&oe=66D60F43" height="250px"/>
+            <div class="bottom-right">branding pens,cups,etc</div></div> </div>
+       </section>
+
+
+       <section class="About us" id="ABOUT">
+        <div class="about-container"></div>
+        <div class="about-text"></div>
+        <h2 style="color: black;">About Us</h2>
+        <p>
+            CHESANG COMPANY LIMITED is a Printing and General Supplies Company registered in 2020 in the 
+Republic of South Sudan. We  offer full range of printing and general services to a variety of clients 
+operating across many different industry sectors. We are a one-stop shop for all your printing and general 
+requirements; our customized solutions are tailored specially to your individual needs, ensuring the best 
+results every time throughout printing, and general supplies.
+        </p>
+    </section>
+</main>
+<section class="Clients" id="CLIENTS">
+<div class="news-container"></div>
+<div class="news text"></div>
+<div class="image-news"></div>
+<h2 style="color: black;">CLIENTS</h2>
+
+<div class="image" class="link"><img src="hdc.jpg" height="100">
+    <div class="bottom-right"> <div class="top-right"> <h2 style="color: maroon;">HDC ORG</h2>Chesang's team exceeded all our expectations! 
+        Their innovative approach and dedication to quality truly set them apart.
+         We are thrilled with the results and look forward to continuing our partnership with them. 
+         Highly recommended for anyone seeking top-notch branding solutions!</div></div> </div></div></div></div> </div></div>
+
+    <br><br>
+     <div class="image" class="link"><img src="corps.jpg" height="100">
+        <div class="top-right"> <h2 style="color: rgb(213, 21, 21);">Mercy Corps</h2>The way you infuse creativity into real-life branding is simply inspiring. Your vision concept is like a work of art, captivating and unique. 
+            Your use of well-defined words in your communications adds a touch of sophistication to your brand. 
+            Clients can expect nothing short of a beautifully crafted branding experience that speaks volumes.</div></div> </div></div>
+<br><br><br><br>
+<div class="image" class="link"><img src="Nalight.jpg" height="100" ><div class="bottom-right"> <div class="top-right"> <h2 style="color:palevioletred;">ALIGHT ORG</h2>Their unique blend of creativity and real-world elements brought our brand to life in ways we never imagined. 
+    The vision concept they crafted for us was not just a design but a true work of art that resonated with our audience</div></div> </div></div></div></div> 
+    
+    <br><br><br><br>
+    <div class="image" class="link"><img src="ssuda.jpg" height="100"><div class="bottom-right"> <div class="top-right"> <h2 style="color: white;">SSUDA ORG.</h2>Your ability to use nicely defined words in your communications sets you apart. 
+        Clients working with your agency can expect a unique and eloquently crafted branding experience that resonates with their target audience.</div></div> </div></div></div></div> </div></div>
+        
+        
+             </p><br><br><br><br>
+</section>
+<br>
+<section class="Contacts" id="CONTACTS">
+    <div class="Contacts-holder"></div>
+    <h2 style="color: black;">Contacts</h2>
+    <p>Tel: <br>
+        Manager :+211 926 871 912 <br>
+        Office: +211 918 402 578<br>
+        Email: chesangltd@gmail.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3975.374617545185!2d31.57852887047886!3d4.876760707870906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwNTInMzYuMSJOIDMxwrAzNCc1Ni4wIkU!5e0!3m2!1sen!2ske!4v1724336588136!5m2!1sen!2ske" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer>
+    <p>&copy;Chesang Company. All rights reserved.</p>
+    <br>Follow us on 
+        <a href="https://www.facebook.com/profile.php?id=100076435550176&mibextid=ZbWKwL">Facebook</a><i class="fa fa-facebook" aria-hidden="true"></i>, 
+        
+        
+    </p>
+</footer>
+    </body>
+</html>

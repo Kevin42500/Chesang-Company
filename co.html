@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESANG</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        header {
+            overflow: hidden;
+            background-color: #38c8f4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            transition: all .7s ease;
+        }
+
+        header img {
+            height: 70px;
+            margin-left: 40px;
+            align-self: baseline;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        header a {
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #f3f3f9;
+            background-color: rgb(8, 24, 169);
+            min-height: 90vh;
+            line-height: 1.5;
+            margin-top: 90px; /* Adjusted for header height */
+            padding: 30px;
+        }
+
+        .products-container, .news-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image {
+            float: left;
+            padding: 5px;
+            position: relative;
+        }
+
+        .image img {
+            width: 190px;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: rgb(2, 2, 82);
+            text-align: center;
+            height: 60px;
+            color: white;
+            padding: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer i {
+            margin-left: 10px;
+        }
+
+        .hero-content, .about-container, .news-container {
+            text-align: center;
+        }
+
+        .hero-text, .product-text, .about-text, .bottom-right, .top-right {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+        }
+
+        .bottom-right {
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .top-right {
+            top: 10px;
+            right: 10px;
+        }
+
+        iframe {
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Chesang Company Logo">
+        <h1>CHESANG COMPANY</h1>
+        <nav class="Nav">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#PRODUCTS">PRODUCTS</a></li>
+                <li><a href="#ABOUT">ABOUT US</a></li>
+                <li><a href="#CONTACTS">CONTACT</a></li>
+                <li><a href="#CLIENTS">CLIENTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Hero" id="HOME">
+            <h2 style="color: black;">HOME</h2>
+            <p>Chesang Company! Where Creativity and Innovation intersects with real life.<br>
+            See groundbreaking products, revolutionary technologies, and inspiring work of art that shape our world.<br>
+            We sculpt stories that breathe life into your brand, resonating authentically with your audience and etching a lasting imprint on the world.</p>
+        </section>
+
+        <section class="Products" id="PRODUCTS">
+            <h2 style="color: black;">Our Products</h2>
+            <div class="products-container">
+                <div class="image"><img src="large.jpg" height="250px" alt="Large Formatting">
+                    <div class="bottom-right">Large Formatting</div></div>
+                <div class="image"><img src="reflect.jpg" height="250px" alt="Branding of Reflectors">
+                    <div class="bottom-right">Branding of Reflectors</div></div>
+                <div class="image"><img src="kofia.jpg" height="250px" alt="Hats, Safari Jackets & Caps">
+                    <div class="bottom-right">Hats, Safari Jackets & Caps</div></div>
+                <div class="image"><img src="books.jpg" height="250px" alt="Notebooks">
+                    <div class="bottom-right">Notebooks</div></div>
+                <div class="image"><img src="tshirts.jpg" height="250px" alt="T-Shirts">
+                    <div class="bottom-right">T-Shirts</div></div>
+                <div class="image"><img src="websss.jpg" height="250px" alt="Get Your Website Today">
+                    <div class="bottom-right">Get Your Website Today!</div></div>
+            </div>
+        </section>
+
+        <section class="About" id="ABOUT">
+            <h2 style="color: black;">About Us</h2>
+            <p>CHESANG COMPANY LIMITED is a Printing and General Supplies Company registered in 2020 in the Republic of South Sudan. We offer a full range of printing and general services to a variety of clients operating across many different industry sectors. We are a one-stop shop for all your printing and general requirements; our customized solutions are tailored specially to your individual needs, ensuring the best results every time throughout printing and general supplies.</p>
+        </section>
+
+        <section class="Clients" id="CLIENTS">
+            <h2 style="color: black;">CLIENTS</h2>
+            <div class="news-container">
+                <div class="image">
+                    <img src="hdc.jpg" height="100" alt="HDC ORG">
+                    <div class="top-right">
+                        <h2 style="color: maroon;">HDC ORG</h2>
+                        Chesang's team exceeded all our expectations! Their innovative approach and dedication to quality truly set them apart. We are thrilled with the results and look forward to continuing our partnership with them. Highly recommended for anyone seeking top-notch branding solutions!.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="corps.jpg" height="100" alt="Mercy Corps">
+                    <div class="top-right">
+                        <h2 style="color: rgb(213, 21, 21);">Mercy Corps</h2>
+                        The way you infuse creativity into real-life branding is simply inspiring. Your vision concept is like a work of art, captivating and unique. Your use of well-defined words in your communications adds a touch of sophistication to your brand. Clients can expect nothing short of a beautifully crafted branding experience that speaks volumes.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="Nalight.jpg" height="100" alt="ALIGHT ORG">
+                    <div class="top-right">
+                        <h2 style="color: palevioletred;">ALIGHT ORG</h2>
+                        Their unique blend of creativity and real-world elements brought our brand to life in ways we never imagined. The vision concept they crafted for us was not just a design but a true work of art that resonated with our audience.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="mentor-initiative.jpg" height="100" alt="The Mentor Initiative">
+                    <div class="top-right">
+                        <h2 style="color: rgb(241, 116, 13);">THE MENTOR INITIATIVE</h2>
+                        Your ability to use nicely defined words in your communications sets you apart . Clients working with your agency can expect a unique and eloquently crafted branding experience that resonates with their target audience.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contacts" id="CONTACTS">
+            <h2 style="color: black;">Contacts</h2>
+            <p>Tel:<br>
+                Manager: +211 926 871 912<br>
+                Office: +211 918 402 578<br>
+                Email: chesangltd@gmail.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3975.374617545185!2d31.57852887047886!3d4.876760707870906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwNTInMzYuMSJOIDMxwrAzNCc1Ni4wIkU!5e0!3
